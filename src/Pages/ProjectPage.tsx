@@ -62,6 +62,7 @@ const ProjectPage: React.FC = () => {
           <TaskAccordionTable
             tasks={specificTasks}
             loading={loading}
+            showPopup={showPopup}
             handleshowpop={() => setShowPopup(true)}
             projectTitle={projectId!}
           />
